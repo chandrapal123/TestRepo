@@ -1,0 +1,67 @@
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject
+$ mkdir MVC-Firebase-git
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject
+$ cd MVC-Firebase-git
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ git config --global user.name chandrapal123
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ git config --global user.email chandrapalkhan1998@gmail.com
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ git clone https://github.com/chandrapal123/TestRepo.git
+Cloning into 'TestRepo'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 18 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (18/18), 38.72 KiB | 213.00 KiB/s, done.
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ cd TestRepo
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
+$ git remote add origin https://github.com/chandrapal123/TestRepo.git
+fatal: remote origin already exists.
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
+$ git add .
+
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
+$ git commit -m "Git-command Text file added"
+[main 16af4a2] Git-command Text file added
+ 1 file changed, 20 insertions(+)
+ create mode 100644 git-commands.txt
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 595 bytes | 198.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/chandrapal123/TestRepo.git
+   3596045..16af4a2  main -> main
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapal)
+$ git merge origin chandrapal
+Updating 9d1ad42..16af4a2
+Fast-forward
+ git-commands.txt | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+ create mode 100644 git-commands.txt
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapal)
+$ git push origin chandrapal
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chandrapal123/TestRepo.git
+   9d1ad42..16af4a2  chandrapal -> chandrapal
+Q.3.
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapal)
+$ git diff --name-status
+M       git-commands.txt
+
