@@ -1,0 +1,20 @@
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject
+$ mkdir MVC-Firebase-git
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject
+$ cd MVC-Firebase-git
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ git config --global user.name chandrapal123
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ git config --global user.email chandrapalkhan1998@gmail.com
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git
+$ git clone https://github.com/chandrapal123/TestRepo.git
+Cloning into 'TestRepo'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 18 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (18/18), 38.72 KiB | 213.00 KiB/s, done.
