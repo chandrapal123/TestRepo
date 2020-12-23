@@ -153,7 +153,7 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/chandrapal123/TestRepo.git
    16af4a2..ebb7cb5  main -> main
-
+Q.7.
 arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
 $ git reflog
 8140bba (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: final git-comands
@@ -175,3 +175,13 @@ db7eef4 HEAD@{13}: commit: git-commands.txt removed
 16af4a2 HEAD@{16}: commit: Git-command Text file added
 3596045 HEAD@{17}: clone: from https://github.com/chandrapal123/TestRepo.git
 
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
+$ git cherry-pick 16af4a2
+CONFLICT (add/add): Merge conflict in git-commands.txt
+Auto-merging git-commands.txt
+error: could not apply 16af4a2... Git-command Text file added
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main|CHERRY-PICKING)
