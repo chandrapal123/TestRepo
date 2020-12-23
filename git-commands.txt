@@ -65,3 +65,27 @@ arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapa
 $ git diff --name-status
 M       git-commands.txt
 
+Q.4.
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapal)
+$ git rm -r --cached git-commands.txt
+rm 'git-commands.txt'
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapal)
+$ git commit -m "git-commands.txt  removed"
+[chandrapal db7eef4] git-commands.txt  removed
+ 1 file changed, 20 deletions(-)
+ delete mode 100644 git-commands.txt
+
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (chandrapal)
+$ git push origin chandrapal
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 236 bytes | 236.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/chandrapal123/TestRepo.git
+   16af4a2..db7eef4  chandrapal -> chandrapal
+Q.5.
+
