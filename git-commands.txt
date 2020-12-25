@@ -154,3 +154,24 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/chandrapal123/TestRepo.git
    16af4a2..ebb7cb5  main -> main
 
+arkap@DESKTOP-QEPEP91 MINGW64 ~/NodeProject/MVC-Firebase-git/TestRepo (main)
+$ git reflog
+8140bba (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: final git-comands
+ebb7cb5 HEAD@{1}: commit: updated git-comand.txt file
+ee1d0b9 (origin/chandrapal1, origin/chandrapal, chandrapal1, chandrapal) HEAD@{2}: merge chandrapal: Fast-forward
+16af4a2 HEAD@{3}: checkout: moving from chandrapal1 to main
+ee1d0b9 (origin/chandrapal1, origin/chandrapal, chandrapal1, chandrapal) HEAD@{4}: checkout: moving from chandrapal to chandrapal1
+ee1d0b9 (origin/chandrapal1, origin/chandrapal, chandrapal1, chandrapal) HEAD@{5}: revert: Revert "JUNC file added accidentally"
+b98734c HEAD@{6}: reset: moving to HEAD
+b98734c HEAD@{7}: commit: JUNC file added accidentally
+fbc1b3e HEAD@{8}: revert: Revert "junc file added accidentally"
+4c02b01 HEAD@{9}: reset: moving to HEAD
+4c02b01 HEAD@{10}: commit: junc file added accidentally
+59370cf HEAD@{11}: commit: git-comand added
+db7eef4 HEAD@{12}: reset: moving to HEAD
+db7eef4 HEAD@{13}: commit: git-commands.txt removed
+16af4a2 HEAD@{14}: merge origin: Fast-forward
+9d1ad42 HEAD@{15}: checkout: moving from main to chandrapal
+16af4a2 HEAD@{16}: commit: Git-command Text file added
+3596045 HEAD@{17}: clone: from https://github.com/chandrapal123/TestRepo.git
+
